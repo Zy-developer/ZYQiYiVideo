@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7BC0DAA2304FCA500FAFCB7 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7BC0DA92304FCA500FAFCB7 /* MDConfig.plist */; };
+		F7BC0DB42304FCA500FAFCB7 /* libZYQiYiVideoDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7BC0DB32304FCA500FAFCB7 /* libZYQiYiVideoDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F7BC0DB92304FCA500FAFCB7 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BC0DB82304FCA500FAFCB7 /* JavaScriptCore.framework */; };
+		F7BC0DBB2304FCA500FAFCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BC0DBA2304FCA500FAFCB7 /* Foundation.framework */; };
+		F7BC0DBD2304FCA500FAFCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BC0DBC2304FCA500FAFCB7 /* UIKit.framework */; };
+		F7BC0DC22304FCA500FAFCB7 /* ZYQiYiVideoDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DC12304FCA500FAFCB7 /* ZYQiYiVideoDylib.mm */; };
+		F7BC0DC52304FCA500FAFCB7 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DC42304FCA500FAFCB7 /* MDConfigManager.h */; };
+		F7BC0DC72304FCA500FAFCB7 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DC62304FCA500FAFCB7 /* MDConfigManager.m */; };
+		F7BC0DC92304FCA500FAFCB7 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DC82304FCA500FAFCB7 /* MDCycriptManager.h */; };
+		F7BC0DCB2304FCA500FAFCB7 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DCA2304FCA500FAFCB7 /* MDCycriptManager.m */; };
+		F7BC0DCD2304FCA500FAFCB7 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DCC2304FCA500FAFCB7 /* MDMethodTrace.h */; };
+		F7BC0DCF2304FCA500FAFCB7 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DCE2304FCA500FAFCB7 /* MDMethodTrace.m */; };
+		F7BC0DD22304FCA500FAFCB7 /* a1a2-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DD12304FCA500FAFCB7 /* a1a2-selectortramps-arm.s */; };
+		F7BC0DD42304FCA500FAFCB7 /* a1a2-selectortramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DD32304FCA500FAFCB7 /* a1a2-selectortramps-arm64.s */; };
+		F7BC0DD62304FCA500FAFCB7 /* a1a2-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DD52304FCA500FAFCB7 /* a1a2-selectortramps-i386.s */; };
+		F7BC0DD82304FCA500FAFCB7 /* a1a2-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DD72304FCA500FAFCB7 /* a1a2-selectortramps-x86_64.s */; };
+		F7BC0DDA2304FCA500FAFCB7 /* a2a3-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DD92304FCA500FAFCB7 /* a2a3-selectortramps-arm.s */; };
+		F7BC0DDC2304FCA500FAFCB7 /* a2a3-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DDB2304FCA500FAFCB7 /* a2a3-selectortramps-i386.s */; };
+		F7BC0DDE2304FCA500FAFCB7 /* a2a3-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DDD2304FCA500FAFCB7 /* a2a3-selectortramps-x86_64.s */; };
+		F7BC0DE02304FCA500FAFCB7 /* OCMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DDF2304FCA500FAFCB7 /* OCMethodTrace.h */; };
+		F7BC0DE22304FCA500FAFCB7 /* OCMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DE12304FCA500FAFCB7 /* OCMethodTrace.m */; };
+		F7BC0DE42304FCA500FAFCB7 /* OCSelectorTrampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DE32304FCA500FAFCB7 /* OCSelectorTrampolines.h */; };
+		F7BC0DE62304FCA500FAFCB7 /* OCSelectorTrampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DE52304FCA500FAFCB7 /* OCSelectorTrampolines.mm */; };
+		F7BC0DEA2304FCA500FAFCB7 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DE92304FCA500FAFCB7 /* LLDBTools.h */; };
+		F7BC0DEC2304FCA500FAFCB7 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DEB2304FCA500FAFCB7 /* LLDBTools.mm */; };
+		F7BC0DF12304FCA500FAFCB7 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DF02304FCA500FAFCB7 /* AntiAntiDebug.m */; };
+		F7BC0DF42304FCA500FAFCB7 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DF32304FCA500FAFCB7 /* fishhook.c */; };
+		F7BC0DF62304FCA500FAFCB7 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DF52304FCA500FAFCB7 /* fishhook.h */; };
+		F7BC0DF82304FCA500FAFCB7 /* ZYQiYiVideoDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC0DF72304FCA500FAFCB7 /* ZYQiYiVideoDylib.h */; };
+		F7BC0DFA2304FCA500FAFCB7 /* ZYQiYiVideoDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BC0DF92304FCA500FAFCB7 /* ZYQiYiVideoDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7BC0DB52304FCA500FAFCB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7BC0D972304FCA500FAFCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7BC0DB22304FCA500FAFCB7;
+			remoteInfo = ZYQiYiVideoDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7BC0D9F2304FCA500FAFCB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7BC0DB42304FCA500FAFCB7 /* libZYQiYiVideoDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7BC0DA22304FCA500FAFCB7 /* ZYQiYiVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYQiYiVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BC0DA52304FCA500FAFCB7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F7BC0DA72304FCA500FAFCB7 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		F7BC0DA92304FCA500FAFCB7 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		F7BC0DAC2304FCA500FAFCB7 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		F7BC0DAD2304FCA500FAFCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BC0DB32304FCA500FAFCB7 /* libZYQiYiVideoDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libZYQiYiVideoDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BC0DB82304FCA500FAFCB7 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7BC0DBA2304FCA500FAFCB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7BC0DBC2304FCA500FAFCB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7BC0DC02304FCA500FAFCB7 /* ZYQiYiVideoDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = ZYQiYiVideoDylib.xm; path = Logos/ZYQiYiVideoDylib.xm; sourceTree = "<group>"; };
+		F7BC0DC12304FCA500FAFCB7 /* ZYQiYiVideoDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = ZYQiYiVideoDylib.mm; path = Logos/ZYQiYiVideoDylib.mm; sourceTree = "<group>"; };
+		F7BC0DC42304FCA500FAFCB7 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		F7BC0DC62304FCA500FAFCB7 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		F7BC0DC82304FCA500FAFCB7 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		F7BC0DCA2304FCA500FAFCB7 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		F7BC0DCC2304FCA500FAFCB7 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		F7BC0DCE2304FCA500FAFCB7 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		F7BC0DD12304FCA500FAFCB7 /* a1a2-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-arm.s"; path = "Trace/a1a2-selectortramps-arm.s"; sourceTree = "<group>"; };
+		F7BC0DD32304FCA500FAFCB7 /* a1a2-selectortramps-arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-arm64.s"; path = "Trace/a1a2-selectortramps-arm64.s"; sourceTree = "<group>"; };
+		F7BC0DD52304FCA500FAFCB7 /* a1a2-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-i386.s"; path = "Trace/a1a2-selectortramps-i386.s"; sourceTree = "<group>"; };
+		F7BC0DD72304FCA500FAFCB7 /* a1a2-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-x86_64.s"; path = "Trace/a1a2-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		F7BC0DD92304FCA500FAFCB7 /* a2a3-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a2a3-selectortramps-arm.s"; path = "Trace/a2a3-selectortramps-arm.s"; sourceTree = "<group>"; };
+		F7BC0DDB2304FCA500FAFCB7 /* a2a3-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a2a3-selectortramps-i386.s"; path = "Trace/a2a3-selectortramps-i386.s"; sourceTree = "<group>"; };
+		F7BC0DDD2304FCA500FAFCB7 /* a2a3-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a2a3-selectortramps-x86_64.s"; path = "Trace/a2a3-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		F7BC0DDF2304FCA500FAFCB7 /* OCMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMethodTrace.h; path = Trace/OCMethodTrace.h; sourceTree = "<group>"; };
+		F7BC0DE12304FCA500FAFCB7 /* OCMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OCMethodTrace.m; path = Trace/OCMethodTrace.m; sourceTree = "<group>"; };
+		F7BC0DE32304FCA500FAFCB7 /* OCSelectorTrampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCSelectorTrampolines.h; path = Trace/OCSelectorTrampolines.h; sourceTree = "<group>"; };
+		F7BC0DE52304FCA500FAFCB7 /* OCSelectorTrampolines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OCSelectorTrampolines.mm; path = Trace/OCSelectorTrampolines.mm; sourceTree = "<group>"; };
+		F7BC0DE72304FCA500FAFCB7 /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; name = selectortramps.mac; path = Trace/selectortramps.mac; sourceTree = "<group>"; };
+		F7BC0DE92304FCA500FAFCB7 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		F7BC0DEB2304FCA500FAFCB7 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		F7BC0DEE2304FCA500FAFCB7 /* ZYQiYiVideoDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYQiYiVideoDylib-Prefix.pch"; sourceTree = "<group>"; };
+		F7BC0DF02304FCA500FAFCB7 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		F7BC0DF32304FCA500FAFCB7 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		F7BC0DF52304FCA500FAFCB7 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		F7BC0DF72304FCA500FAFCB7 /* ZYQiYiVideoDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYQiYiVideoDylib.h; sourceTree = "<group>"; };
+		F7BC0DF92304FCA500FAFCB7 /* ZYQiYiVideoDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQiYiVideoDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7BC0D9C2304FCA500FAFCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BC0DB02304FCA500FAFCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BC0DB92304FCA500FAFCB7 /* JavaScriptCore.framework in Frameworks */,
+				F7BC0DBD2304FCA500FAFCB7 /* UIKit.framework in Frameworks */,
+				F7BC0DBB2304FCA500FAFCB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7BC0D962304FCA500FAFCB7 = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DA42304FCA500FAFCB7 /* ZYQiYiVideo */,
+				F7BC0DBE2304FCA500FAFCB7 /* ZYQiYiVideoDylib */,
+				F7BC0DB72304FCA500FAFCB7 /* Frameworks */,
+				F7BC0DA32304FCA500FAFCB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7BC0DA32304FCA500FAFCB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DA22304FCA500FAFCB7 /* ZYQiYiVideo.app */,
+				F7BC0DB32304FCA500FAFCB7 /* libZYQiYiVideoDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7BC0DA42304FCA500FAFCB7 /* ZYQiYiVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DA52304FCA500FAFCB7 /* icon.png */,
+				F7BC0DAD2304FCA500FAFCB7 /* Info.plist */,
+				F7BC0DA62304FCA500FAFCB7 /* Scripts */,
+				F7BC0DA82304FCA500FAFCB7 /* Config */,
+				F7BC0DAB2304FCA500FAFCB7 /* TargetApp */,
+			);
+			path = ZYQiYiVideo;
+			sourceTree = "<group>";
+		};
+		F7BC0DA62304FCA500FAFCB7 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DA72304FCA500FAFCB7 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		F7BC0DA82304FCA500FAFCB7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DA92304FCA500FAFCB7 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F7BC0DAB2304FCA500FAFCB7 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DAC2304FCA500FAFCB7 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		F7BC0DB72304FCA500FAFCB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DB82304FCA500FAFCB7 /* JavaScriptCore.framework */,
+				F7BC0DBA2304FCA500FAFCB7 /* Foundation.framework */,
+				F7BC0DBC2304FCA500FAFCB7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7BC0DBE2304FCA500FAFCB7 /* ZYQiYiVideoDylib */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DF72304FCA500FAFCB7 /* ZYQiYiVideoDylib.h */,
+				F7BC0DF92304FCA500FAFCB7 /* ZYQiYiVideoDylib.m */,
+				F7BC0DBF2304FCA500FAFCB7 /* Logos */,
+				F7BC0DC32304FCA500FAFCB7 /* Config */,
+				F7BC0DD02304FCA500FAFCB7 /* Trace */,
+				F7BC0DE82304FCA500FAFCB7 /* Tools */,
+				F7BC0DEF2304FCA500FAFCB7 /* AntiAntiDebug */,
+				F7BC0DF22304FCA500FAFCB7 /* fishhook */,
+				F7BC0DED2304FCA500FAFCB7 /* Supporting Files */,
+			);
+			path = ZYQiYiVideoDylib;
+			sourceTree = "<group>";
+		};
+		F7BC0DBF2304FCA500FAFCB7 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DC02304FCA500FAFCB7 /* ZYQiYiVideoDylib.xm */,
+				F7BC0DC12304FCA500FAFCB7 /* ZYQiYiVideoDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		F7BC0DC32304FCA500FAFCB7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DC42304FCA500FAFCB7 /* MDConfigManager.h */,
+				F7BC0DC62304FCA500FAFCB7 /* MDConfigManager.m */,
+				F7BC0DC82304FCA500FAFCB7 /* MDCycriptManager.h */,
+				F7BC0DCA2304FCA500FAFCB7 /* MDCycriptManager.m */,
+				F7BC0DCC2304FCA500FAFCB7 /* MDMethodTrace.h */,
+				F7BC0DCE2304FCA500FAFCB7 /* MDMethodTrace.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F7BC0DD02304FCA500FAFCB7 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DD12304FCA500FAFCB7 /* a1a2-selectortramps-arm.s */,
+				F7BC0DD32304FCA500FAFCB7 /* a1a2-selectortramps-arm64.s */,
+				F7BC0DD52304FCA500FAFCB7 /* a1a2-selectortramps-i386.s */,
+				F7BC0DD72304FCA500FAFCB7 /* a1a2-selectortramps-x86_64.s */,
+				F7BC0DD92304FCA500FAFCB7 /* a2a3-selectortramps-arm.s */,
+				F7BC0DDB2304FCA500FAFCB7 /* a2a3-selectortramps-i386.s */,
+				F7BC0DDD2304FCA500FAFCB7 /* a2a3-selectortramps-x86_64.s */,
+				F7BC0DDF2304FCA500FAFCB7 /* OCMethodTrace.h */,
+				F7BC0DE12304FCA500FAFCB7 /* OCMethodTrace.m */,
+				F7BC0DE32304FCA500FAFCB7 /* OCSelectorTrampolines.h */,
+				F7BC0DE52304FCA500FAFCB7 /* OCSelectorTrampolines.mm */,
+				F7BC0DE72304FCA500FAFCB7 /* selectortramps.mac */,
+			);
+			name = Trace;
+			sourceTree = "<group>";
+		};
+		F7BC0DE82304FCA500FAFCB7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DE92304FCA500FAFCB7 /* LLDBTools.h */,
+				F7BC0DEB2304FCA500FAFCB7 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F7BC0DED2304FCA500FAFCB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DEE2304FCA500FAFCB7 /* ZYQiYiVideoDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7BC0DEF2304FCA500FAFCB7 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DF02304FCA500FAFCB7 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		F7BC0DF22304FCA500FAFCB7 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC0DF32304FCA500FAFCB7 /* fishhook.c */,
+				F7BC0DF52304FCA500FAFCB7 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F7BC0DB12304FCA500FAFCB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BC0DC92304FCA500FAFCB7 /* MDCycriptManager.h in Headers */,
+				F7BC0DCD2304FCA500FAFCB7 /* MDMethodTrace.h in Headers */,
+				F7BC0DF82304FCA500FAFCB7 /* ZYQiYiVideoDylib.h in Headers */,
+				F7BC0DF62304FCA500FAFCB7 /* fishhook.h in Headers */,
+				F7BC0DEA2304FCA500FAFCB7 /* LLDBTools.h in Headers */,
+				F7BC0DC52304FCA500FAFCB7 /* MDConfigManager.h in Headers */,
+				F7BC0DE42304FCA500FAFCB7 /* OCSelectorTrampolines.h in Headers */,
+				F7BC0DE02304FCA500FAFCB7 /* OCMethodTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F7BC0DA12304FCA500FAFCB7 /* ZYQiYiVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BC0E002304FCA500FAFCB7 /* Build configuration list for PBXNativeTarget "ZYQiYiVideo" */;
+			buildPhases = (
+				F7BC0D9B2304FCA500FAFCB7 /* Sources */,
+				F7BC0D9C2304FCA500FAFCB7 /* Frameworks */,
+				F7BC0D9D2304FCA500FAFCB7 /* ShellScript */,
+				F7BC0D9E2304FCA500FAFCB7 /* Resources */,
+				F7BC0D9F2304FCA500FAFCB7 /* CopyFiles */,
+				F7BC0DA02304FCA500FAFCB7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7BC0DB62304FCA500FAFCB7 /* PBXTargetDependency */,
+			);
+			name = ZYQiYiVideo;
+			productName = ZYQiYiVideo;
+			productReference = F7BC0DA22304FCA500FAFCB7 /* ZYQiYiVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7BC0DB22304FCA500FAFCB7 /* ZYQiYiVideoDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7BC0DFD2304FCA500FAFCB7 /* Build configuration list for PBXNativeTarget "ZYQiYiVideoDylib" */;
+			buildPhases = (
+				F7BC0DAE2304FCA500FAFCB7 /* ShellScript */,
+				F7BC0DAF2304FCA500FAFCB7 /* Sources */,
+				F7BC0DB02304FCA500FAFCB7 /* Frameworks */,
+				F7BC0DB12304FCA500FAFCB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYQiYiVideoDylib;
+			productName = ZYQiYiVideoDylib;
+			productReference = F7BC0DB32304FCA500FAFCB7 /* libZYQiYiVideoDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7BC0D972304FCA500FAFCB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Zy;
+				TargetAttributes = {
+					F7BC0DA12304FCA500FAFCB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F7BC0DB22304FCA500FAFCB7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7BC0D9A2304FCA500FAFCB7 /* Build configuration list for PBXProject "ZYQiYiVideo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F7BC0D962304FCA500FAFCB7;
+			productRefGroup = F7BC0DA32304FCA500FAFCB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7BC0DA12304FCA500FAFCB7 /* ZYQiYiVideo */,
+				F7BC0DB22304FCA500FAFCB7 /* ZYQiYiVideoDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7BC0D9E2304FCA500FAFCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BC0DAA2304FCA500FAFCB7 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F7BC0D9D2304FCA500FAFCB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		F7BC0DA02304FCA500FAFCB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		F7BC0DAE2304FCA500FAFCB7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7BC0D9B2304FCA500FAFCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BC0DAF2304FCA500FAFCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BC0DCB2304FCA500FAFCB7 /* MDCycriptManager.m in Sources */,
+				F7BC0DD42304FCA500FAFCB7 /* a1a2-selectortramps-arm64.s in Sources */,
+				F7BC0DD22304FCA500FAFCB7 /* a1a2-selectortramps-arm.s in Sources */,
+				F7BC0DD82304FCA500FAFCB7 /* a1a2-selectortramps-x86_64.s in Sources */,
+				F7BC0DE22304FCA500FAFCB7 /* OCMethodTrace.m in Sources */,
+				F7BC0DC72304FCA500FAFCB7 /* MDConfigManager.m in Sources */,
+				F7BC0DF42304FCA500FAFCB7 /* fishhook.c in Sources */,
+				F7BC0DF12304FCA500FAFCB7 /* AntiAntiDebug.m in Sources */,
+				F7BC0DE62304FCA500FAFCB7 /* OCSelectorTrampolines.mm in Sources */,
+				F7BC0DD62304FCA500FAFCB7 /* a1a2-selectortramps-i386.s in Sources */,
+				F7BC0DFA2304FCA500FAFCB7 /* ZYQiYiVideoDylib.m in Sources */,
+				F7BC0DDC2304FCA500FAFCB7 /* a2a3-selectortramps-i386.s in Sources */,
+				F7BC0DDA2304FCA500FAFCB7 /* a2a3-selectortramps-arm.s in Sources */,
+				F7BC0DC22304FCA500FAFCB7 /* ZYQiYiVideoDylib.mm in Sources */,
+				F7BC0DEC2304FCA500FAFCB7 /* LLDBTools.mm in Sources */,
+				F7BC0DDE2304FCA500FAFCB7 /* a2a3-selectortramps-x86_64.s in Sources */,
+				F7BC0DCF2304FCA500FAFCB7 /* MDMethodTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7BC0DB62304FCA500FAFCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7BC0DB22304FCA500FAFCB7 /* ZYQiYiVideoDylib */;
+			targetProxy = F7BC0DB52304FCA500FAFCB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7BC0DFB2304FCA500FAFCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7BC0DFC2304FCA500FAFCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7BC0DFE2304FCA500FAFCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P4CG8X3X4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYQiYiVideoDylib/ZYQiYiVideoDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libZYQiYiVideoDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"ZYQiYiVideoDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		F7BC0DFF2304FCA500FAFCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 6P4CG8X3X4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZYQiYiVideoDylib/ZYQiYiVideoDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libZYQiYiVideoDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"ZYQiYiVideoDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7BC0E012304FCA500FAFCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P4CG8X3X4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZYQiYiVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYQiYiVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7BC0E022304FCA500FAFCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P4CG8X3X4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZYQiYiVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zy.ZYQiYiVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7BC0D9A2304FCA500FAFCB7 /* Build configuration list for PBXProject "ZYQiYiVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BC0DFB2304FCA500FAFCB7 /* Debug */,
+				F7BC0DFC2304FCA500FAFCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BC0DFD2304FCA500FAFCB7 /* Build configuration list for PBXNativeTarget "ZYQiYiVideoDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BC0DFE2304FCA500FAFCB7 /* Debug */,
+				F7BC0DFF2304FCA500FAFCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7BC0E002304FCA500FAFCB7 /* Build configuration list for PBXNativeTarget "ZYQiYiVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7BC0E012304FCA500FAFCB7 /* Debug */,
+				F7BC0E022304FCA500FAFCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7BC0D972304FCA500FAFCB7 /* Project object */;
+}
