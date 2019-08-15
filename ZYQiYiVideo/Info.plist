@@ -2,12 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AppPublishChannelName</key>
+	<string>appstore</string>
 	<key>BuildMachineOSBuild</key>
-	<string>16G1212</string>
+	<string>15B42</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>爱奇艺PPS.</string>
 	<key>CFBundleExecutable</key>
-	<string>TargetApp</string>
+	<string>QiYiVideo_Uni</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>ZYQiYiVideo/icon.png</string>
@@ -18,61 +22,308 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>AppIcon60x60</string>
+				<string>PPStream_AppIcon29x29</string>
+				<string>PPStream_AppIcon40x40</string>
+				<string>PPStream_AppIcon60x60</string>
 			</array>
-			<key>CFBundleIconName</key>
-			<string>AppIcon</string>
+			<key>UIPrerenderedIcon</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>PPStream_AppIcon29x29</string>
+				<string>PPStream_AppIcon40x40</string>
+				<string>PPStream_AppIcon60x60</string>
+				<string>PPStream_AppIcon76x76</string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.zy.ZYQiYiVideo</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>zh_CN</string>
+		<string>EN</string>
+	</array>
 	<key>CFBundleName</key>
-	<string>TargetApp</string>
+	<string>爱奇艺PPS.</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>5.2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneOS</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ppstream</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>weixin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wxbb2360444164c6aa</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>qqplugin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>QQ84D2B53A</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>sinasso</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sinaweibosso.3094926901</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>tencentsso</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wb801365134</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>aiqiyi</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>video</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ppsvideo</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>video</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ppsplay</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>login</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>pps-uni</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>alipay</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>alipay-ppsIphone</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>20160303221900</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>15C107</string>
+	<string>13C75</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTPlatformVersion</key>
-	<string>11.2</string>
+	<string>9.2</string>
 	<key>DTSDKBuild</key>
-	<string>15C107</string>
+	<string>13C75</string>
 	<key>DTSDKName</key>
-	<string>iphoneos11.2</string>
+	<string>iphoneos9.2</string>
 	<key>DTXcode</key>
-	<string>0920</string>
+	<string>0720</string>
 	<key>DTXcodeBuild</key>
-	<string>9C40b</string>
+	<string>7C68</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.entertainment</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>wechat</string>
+		<string>weixin</string>
+		<string>papaq</string>
+		<string>alipay</string>
+		<string>alipays</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>8.0</string>
+	<string>7.0</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string> </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>QYApplicationKey</key>
+	<string>200011019b3bee280d6fbbea9c34cc0e</string>
+	<key>QYApplicationKeyPhone</key>
+	<string>20210202f5452f04d6d63114a334b6e8</string>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>shortcut_search</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>UIApplicationShortcutItemSearchTitle</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>UIApplicationShortcutItemIconTypeSearch</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>shortcut_history</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>UIApplicationShortcutItemHistoryTitle</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>UIApplicationShortcutItemIconTypeHistory</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>shortcut_down</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>UIApplicationShortcutItemDownTitle</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>UIApplicationShortcutItemIconTypeDown</string>
+		</dict>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
 		<integer>2</integer>
 	</array>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchImages</key>
+	<array>
+		<dict>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>8.0</string>
+			<key>UILaunchImageName</key>
+			<string>PPStream_LaunchImage-800-Portrait-736h</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Portrait</string>
+			<key>UILaunchImageSize</key>
+			<string>{414, 736}</string>
+		</dict>
+		<dict>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>8.0</string>
+			<key>UILaunchImageName</key>
+			<string>PPStream_LaunchImage-800-Landscape-736h</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Landscape</string>
+			<key>UILaunchImageSize</key>
+			<string>{414, 736}</string>
+		</dict>
+		<dict>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>8.0</string>
+			<key>UILaunchImageName</key>
+			<string>PPStream_LaunchImage-800-667h</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Portrait</string>
+			<key>UILaunchImageSize</key>
+			<string>{375, 667}</string>
+		</dict>
+		<dict>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>7.0</string>
+			<key>UILaunchImageName</key>
+			<string>PPStream_LaunchImage-700</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Portrait</string>
+			<key>UILaunchImageSize</key>
+			<string>{320, 480}</string>
+		</dict>
+		<dict>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>7.0</string>
+			<key>UILaunchImageName</key>
+			<string>PPStream_LaunchImage-700-568h</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Portrait</string>
+			<key>UILaunchImageSize</key>
+			<string>{320, 568}</string>
+		</dict>
+		<dict>
+			<key>UILaunchImageMinimumOSVersion</key>
+			<string>7.0</string>
+			<key>UILaunchImageName</key>
+			<string>PPStream_LaunchImage-700-Landscape</string>
+			<key>UILaunchImageOrientation</key>
+			<string>Landscape</string>
+			<key>UILaunchImageSize</key>
+			<string>{768, 1024}</string>
+		</dict>
+	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -81,10 +332,12 @@
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>qy_project_type</key>
+	<string>universal</string>
 </dict>
 </plist>
