@@ -5,6 +5,7 @@
 ## Build generated
 build/
 DerivedData/
+LatestBuild
 
 ## Various settings
 *.pbxuser
@@ -24,7 +25,6 @@ xcuserdata/
 
 ## Obj-C/Swift specific
 *.hmap
-*.ipa
 *.dSYM.zip
 *.dSYM
 
